@@ -1,5 +1,4 @@
 # AivanBMI
-<<<<<<< HEAD
 
 O projeto AivanBMI....
 
@@ -41,6 +40,3 @@ Se você tiver algum feedback, por favor enviar para ivan.rocha.0987@gmail.com
   <img src="./assets/qrcode.png/" alt="qrcode" class="capa">
 
 Caso o QR não funcione, acesse <a href="https://ivanrocha10.github.io/AivanBMI/">aqui</a>
-=======
- #Youtube; #LarissaKich
->>>>>>> 7f937366a46b5e21e1ede37ac9fa4325114d7fec
