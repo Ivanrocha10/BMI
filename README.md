@@ -4,9 +4,6 @@ O projeto AivanBMI....
 
 ## 📺 Demonstração
 
-
-![App Screenshot](./assets/BMI.mp4)
-
 <video width="100%" height="100%" controls>
   <source src="./assets/BMI.mp4" type="video/mp4">
 </video>
