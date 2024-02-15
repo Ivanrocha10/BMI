@@ -4,7 +4,12 @@ O projeto AivanBMI....
 
 ## 📺 Demonstração
 
-![App Screenshot](./assets/AivanBMI.gif)
+
+<video width="1000" height="450" controls>
+  <source src="./assets/BMI.mp4" type="video/mp4">
+  Infelizmente seu navegador não suporta vídeo.
+</video>
+
 
 ## 💻 Tech Stack:
 

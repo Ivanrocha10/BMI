@@ -9,11 +9,13 @@
   --color-primary: #18181b;
   --color-secondary: #f8fafc;
   --color-tertiary: #262626;
+  --color-imc-result: #00ff5e;
   --color-quaternary: #16a34a;
+  --color-button-hover: #14b64f;
   --color-quinary: #cbd5e1;
   --color-senary: #3f3f46;
   --color-septenary: #ffffff34;
-  --color-octonary: #dc2626;
+  --color-octonary: #f80000;
 }
 
 body {
@@ -37,8 +39,8 @@ body {
 
 #calculator {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  flex-direction: row;
+  gap: 3rem;
   padding: 2rem;
   color: var(--color-secondary);
   background-color: var(--color-tertiary);
@@ -48,7 +50,7 @@ body {
 #form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 #title {
@@ -59,7 +61,7 @@ body {
 #title::after {
   position: absolute;
   content: '';
-  width: 8rem;
+  width: 14.2rem;
   height: 3px;
   border-radius: 3px;
   background-color: var(--color-quaternary);
@@ -120,6 +122,10 @@ body {
   width: 100%;
 }
 
+#infos {
+  margin: 8rem 0px 0px 0px;
+}
+
 #result {
   display: flex;
   gap: 2rem;
@@ -141,7 +147,7 @@ body {
 }
 
 .normal {
-  color: var(--color-quaternary);
+  color: var(--color-imc-result);
 }
 
 .attention {
@@ -177,22 +183,10 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
-  #img {
-    display: none;
-  }
+.input-field:hover {
+  background-color: #383841;
 }
 
-@media screen and (max-width: 500px) {
-  #container {
-    width: 100%;
-    height: 100%;
-  }
-
-  #calculator {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    justify-content: center;
-  }
+#calculate:hover {
+  background-color: var(--color-button-hover);
 }
