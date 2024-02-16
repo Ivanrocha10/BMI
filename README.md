@@ -12,7 +12,7 @@ Além disso, o projeto disponibiliza um link para mais informações sobre o IMC
 
 ![App Screenshot](./assets/BMI.gif)
 
-## 💻 Tech Stack:
+## 💻 Tech Stack
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -45,5 +45,5 @@ Além disso, o projeto disponibiliza um link para mais informações sobre o IMC
 </p>
   <img src="./assets/qrcode.png/" alt="qrcode" class="capa">
 
-Caso o QR não funcione, acesse <a href="https://ivanrocha10.github.io/AivanBMI/">aqui</a>
+Caso o QR não funcione, acesse <a href="https://bmi-calculator-ten-mu.vercel.app/">aqui</a>
 
