@@ -14,6 +14,7 @@ form.addEventListener('submit', function (event) {
     value.classList.add('attention')
 
     document.getElementById('infos').classList.remove('hidden')
+    document.getElementById('calculate').style.display = 'none'
 
     if (bmi < 18.5) {
       description = 'Cuidado! Você está abaixo do peso!'
